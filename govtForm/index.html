@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGSRTC ticket Booking Aplication</title>
+</head>
+<body>
+   
+    <h1 style="text-align:center">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h1 style="text-align:center">GENERAL BUS PASS APPLICATION</h1>
+    
+    <form >
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <table>
+            <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="Name" maxlength="20"  required ></td>
+             <td><label for="fname"> Father's/Guardian's Name</label></td>
+             <td><input type="text" id="fname" name="Name" required ></td>
+             </tr>
+             <tr>
+             <td><label for="dob"> Date of birth</label></td>
+             <td><input type="date" id="dob" name="dob" required></td>
+             
+             <td> <label for="gender" > Gender</label></td>
+             <td><input type="radio" id="gender" name="dob" value="Female" >
+              <label>Female</label>
+              <input type="radio" id="gender" name="dob" value="Male">`
+              <label>Male</label></td>
+              </tr>
+              <tr>
+                <td>
+              <label>Age</label></td>
+               <td><input type="number" min="15"  max="100"> </td>
+              
+               <td><label>Aadhaar No</label> </td>
+              <td> <input type="tel" name="adhar" maxlength="12"> </td>
+                </tr>
+                <tr>
+               <td><label>Whatsapp No</label> </td>
+              <td><input type="tel" name="Whatsapp" maxlength="10"></td>
+             
+              <td><label>Email</label></td>
+              <td><input type="email" name="email"></td>
+              </tr>
+              <tr>
+                <td>
+              <label>Photo</label></td>
+               <td><input type="file" name="photo"  accept=".pdf">
+               </td>
+               </tr>
+               </table>
+        </fieldset>
+        <fieldset>
+            <legend>Residential Adress Details</legend>
+            <table>
+                <tr>
+                    <td><label>Applicant's Adress</label></td>
+                    <td><textarea name="adress" id="adress" rows="4" cols="20"></textarea></td>
+                    <td><label>District</label></td>
+                    <td>
+                    <select> 
+                    <option value="District" selected disabled>District</option>
+                    <option value="District">Hyderabd</option>
+                    <option value="District">warangal</option>
+                    <option value="District">khammam</option> </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Mandal</label></td>
+                    <td>
+                    <select> 
+                    <option value="Mandal" selected disabled>Mandal</option>
+                    <option value="Mandal">Hyderabad</option>
+                    <option value="Mandal">warangal</option>
+                    <option value="Mandal">khammam</option> </select>
+                    </td>
+                    <td><label>Village</label></td>
+                    <td><select> 
+                    <option value="Mandal" selected disabled>Village</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="warangal">warangal</option>
+                    <option value="khammam">khammam</option> </select></td>
+
+                </tr>
+                
+                <tr><td><label>Pincode</label></td>
+                <td><input type="tel" name="" id="">
+                </td></tr>
+                
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <table>
+                <tr>
+                    <td><label>City</label></td>
+                    <td><select>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="warangal">warangal</option>
+                    </select></td>
+
+                </tr>
+                <tr>
+                     <td><label>Pass Type</label></td>
+                    <td><select>
+                        <option value="---select---" selected disabled>---select---</option>
+                        <option value="Greater Pass">Greater Pass</option>
+                        <option value="Greater Oridinary Bus pass MTLy">Greater Oridinary Bus pass MTLy</option>
+                        <option value="Ordinarypass"> Ordinarypass</option>
+                        <option value="Metro Express Pass">Metro Express Pass</option>
+                    </select></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+
+            <legend>Mode of Payment& Pass Collection</legend>
+            <table>
+                   <tr><td>Payment Mode</td>
+                <td><select><option value="Select Payment Mode">Select Payment Mode</option>
+                <option value="payment at counter">payment at counter</option></select>
+              </td>
+            </tr>
+            <tr>
+                <td>Pass Delivery Mode</td>
+                <td><select><option value="Select Pass Delivery Mode">Select Pass Delivery Mode</option>
+                <option value="At counter">At counter</option></select>
+              </td>
+
+            </tr>
+              <tr>
+                <td>center at which you want to collect pass</td>
+                <td><select><option value="">----select----</option>
+                <option value="Rtc abids">Rtc abids</option>
+                <option value="Rtc jntu">Rtc jntu</option>
+                <option value="Rtc kphb">Rtc kphb</option>
+                <option value="Rtc secundrabad">Rtc secundrabad</option></select>
+              </td>
+
+            </tr>
+        </table>
+            </fieldset>
+        </fieldset>
+
+
+        <div align="center">
+    <img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2014/09/avoid-captcha.jpg" width="100" height="50"><br><br>
+    
+    <input type="text" placeholder="Enter Captcha"><br><br>
+    
+    <input type="submit" value="Submit">
+</div>
+    
+    </form>
+    
+    
+</body>
+</html>
